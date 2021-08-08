@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
-    user-select: none;
 }
 #info{
     position: absolute;
@@ -25,6 +24,7 @@
     font-size: 40px;
     color: white;
     text-align: center;
+    user-select: none;
     z-index: 2;
 }
 #tryAgain{
@@ -32,6 +32,9 @@
     height: 25%;
     color: black;
     font-size: 25px;
+}
+canvas{
+    cursor: url(cursor.png), pointer;
 }
 #menu{
     position: absolute;
