@@ -34,7 +34,7 @@
     font-size: 25px;
 }
 canvas{
-    cursor: url(cursor.png), pointer;
+    cursor: url(cursor.png) 16 16, pointer;
 }
 #menu{
     position: absolute;
